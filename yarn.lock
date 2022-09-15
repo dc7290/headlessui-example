@@ -37,6 +37,11 @@
   resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.7.1.tgz#39c1b14b2e92d2edb32dd07722a8783a12d0d0be"
   integrity sha512-vnRlB71kvEr3y26Lm1WpCiMML8n5JcJ7jK5+vaF0hGTZFArW206j61meVemXkTOuGLhmyWe6yj3OETzsxHoryQ==
 
+"@heroicons/react@^2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-2.0.11.tgz#2c6cf4c66d81142ec87c102502407d8c353558bb"
+  integrity sha512-bASjOgSSaYj8HqXWsOqaBiB6ZLalE/g90WYGgZ5lPm4KCCG7wPXntY4kzHf5NrLh6UBAcnPwvbiw1Ne9GYfJtw==
+
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.10.4.tgz#01e7366e57d2ad104feea63e72248f22015c520c"
@@ -392,6 +397,11 @@ chalk@^4.0.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+clsx@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
 color-convert@^2.0.1:
   version "2.0.1"
@@ -1215,11 +1225,6 @@ minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
-
-modern-normalize@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-1.1.0.tgz#da8e80140d9221426bd4f725c6e11283d34f90b7"
-  integrity sha512-2lMlY1Yc1+CUy0gw4H95uNN7vjbpoED7NNRSBHE25nWfLBdmMzFCsPshlzbxHz+gYMcBEUN8V4pU16prcdPSgA==
 
 ms@2.0.0:
   version "2.0.0"

@@ -3,13 +3,24 @@
 }
 
 .item {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: center;
-  padding-left: 20px;
+  padding: 20px;
   padding-right: 70px;
   border-top: 1px solid #ddd;
 }
 .item:last-child {
   border-bottom: 1px solid #ddd;
+}
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  width: 50px;
 }

@@ -1,0 +1,39 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: opacity ease-out 0.2s;
+}
+.button:hover {
+  opacity: 0.4;
+}
+
+.list {
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  right: 10px;
+  min-width: 160px;
+  padding: 4px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 0.15);
+  background-color: #fff;
+  transform: translate(100%, 100%);
+}
+.list > * + * {
+  margin-top: 8px;
+}
+
+.item {
+  font-size: 14px;
+  padding: 8px 16px;
+  white-space: nowrap;
+  border-radius: 4px;
+  transition: background-color ease-out 0.2s;
+}
+.item.active {
+  background: #818cf8;
+}

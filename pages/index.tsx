@@ -24,7 +24,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>Contents list</h1>
+        <h1 className={styles.title}>Contents list</h1>
         <ContentsList list={list} />
       </main>
     </div>
